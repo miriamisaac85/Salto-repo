@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_scipt_2_0_js@duuv {
+  availablewithoutlogin = false
+  bundleable = false
+  description = "desc"
+  generateurltimestamp = false
+  hideinbundle = false
+  isinactive = false
+  path = "/SuiteScripts/scipt_2_0.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/scipt_2_0.js")
+  _parent = [
+    "[/SuiteScripts]",
+  ]
+}

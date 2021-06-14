@@ -1,0 +1,12 @@
+netsuite.file SuiteScripts_hq_share_script01@duu {
+  availablewithoutlogin = false
+  bundleable = false
+  generateurltimestamp = false
+  hideinbundle = false
+  isinactive = false
+  path = "/SuiteScripts/hq_share_script01"
+  content = file("netsuite/FileCabinet/SuiteScripts/hq_share_script01")
+  _parent = [
+    "[/SuiteScripts]",
+  ]
+}

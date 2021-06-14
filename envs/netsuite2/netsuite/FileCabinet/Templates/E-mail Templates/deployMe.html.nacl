@@ -1,0 +1,13 @@
+netsuite.file Templates_E_mail_Templates_deployMe_html@dbsdv {
+  availablewithoutlogin = false
+  bundleable = false
+  description = "deploy me"
+  generateurltimestamp = false
+  hideinbundle = false
+  isinactive = false
+  path = "/Templates/E-mail Templates/deployMe.html"
+  content = file("netsuite/FileCabinet/Templates/E-mail Templates/deployMe.html")
+  _parent = [
+    "[/Templates/E-mail Templates]",
+  ]
+}

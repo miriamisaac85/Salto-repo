@@ -1,0 +1,59 @@
+netsuite.role customrole1036 {
+  scriptid = "customrole1036"
+  centertype = "ACCOUNTCENTER"
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  isinactive = true
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "With employeeviewingallowed field"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "OWN"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = [
+      {
+        permkey = "TRAN_PAYMENTAUDIT"
+        permlevel = "VIEW"
+      },
+      {
+        permkey = "TRAN_PURCHORDBILL"
+        permlevel = "EDIT"
+      },
+      {
+        permkey = "TRAN_VENDBILL"
+        permlevel = "VIEW"
+      },
+      {
+        permkey = "TRAN_VENDCRED"
+        permlevel = "VIEW"
+      },
+      {
+        permkey = "TRAN_FIND"
+        permlevel = "VIEW"
+      },
+      {
+        permkey = "TRAN_CUSTINVC"
+        permlevel = "VIEW"
+      },
+      {
+        permkey = "TRAN_PURCHORD"
+        permlevel = "EDIT"
+      },
+      {
+        permkey = "TRAN_VENDBILLAPPRV"
+        permlevel = "EDIT"
+      },
+      {
+        permkey = "TRAN_VENDAUTHAPPRV"
+        permlevel = "EDIT"
+      },
+    ]
+  }
+}

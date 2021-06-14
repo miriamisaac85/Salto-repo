@@ -1,0 +1,20 @@
+netsuite.clientscript customscript_slt_client_script_2_0 {
+  scriptid = "customscript_slt_client_script_2_0"
+  description = "version 2.0"
+  isinactive = false
+  name = "clientScript_2_0.js"
+  notifyadmins = true
+  notifyowner = true
+  notifyuser = false
+  scriptfile = netsuite.file.instance.SuiteScripts_clientScript_2_0_js@duuv.path
+  buttons = {
+    button = [
+      {
+        buttonlabel = "Some button"
+      },
+      {
+        buttonlabel = "Another button"
+      },
+    ]
+  }
+}

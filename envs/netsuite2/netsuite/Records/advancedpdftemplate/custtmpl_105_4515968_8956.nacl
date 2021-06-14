@@ -1,0 +1,9 @@
+netsuite.advancedpdftemplate custtmpl_105_4515968_8956 {
+  scriptid = "custtmpl_105_4515968_8956"
+  standard = "STDTMPLEMPTY"
+  displaysourcecode = true
+  isinactive = false
+  preferred = false
+  title = "ICIL Custom Credit Memo replica"
+  content = file("netsuite/advancedpdftemplate/custtmpl_105_4515968_8956.xml")
+}

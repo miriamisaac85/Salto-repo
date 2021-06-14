@@ -1,0 +1,58 @@
+netsuite.customrecordtype customrecord_cseg1 {
+  scriptid = "customrecord_cseg1"
+  allowattachments = false
+  allowinlinedeleting = false
+  allowinlinedetaching = false
+  allowinlineediting = false
+  allowquickadd = false
+  allowquicksearch = false
+  customsegment = netsuite.customsegment.instance.cseg1.scriptid
+  enabledle = false
+  enablekeywords = false
+  enablemailmerge = false
+  enableoptimisticlocking = false
+  enablesystemnotes = false
+  iconbuiltin = true
+  includeinsearchmenu = false
+  showcreationdate = false
+  showcreationdateonlist = false
+  showlastmodified = false
+  showlastmodifiedonlist = false
+  shownotes = true
+  showowner = false
+  showownerallowchange = false
+  showowneronlist = false
+  instances = {
+    instance = [
+      {
+        scriptid = "val_5912_2239021_113"
+        isinactive = false
+        name = "a"
+      },
+      {
+        scriptid = "val_5913_2239021_335"
+        isinactive = false
+        name = "b"
+      },
+      {
+        scriptid = "val_5914_2239021_500"
+        isinactive = false
+        name = "c"
+      },
+      {
+        scriptid = "val_5915_2239021_234"
+        isinactive = false
+        name = "aSon"
+        parent = netsuite.customrecordtype.instance.customrecord_cseg1.instances.instance.0.scriptid
+      },
+    ]
+  }
+  links = {
+    link = [
+      {
+        linkcategory = "BASICSETUPCOMPANY"
+        linktasktype = "LIST"
+      },
+    ]
+  }
+}

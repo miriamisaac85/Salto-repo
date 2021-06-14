@@ -1,0 +1,83 @@
+netsuite.role customrole1009 {
+  scriptid = "customrole1009"
+  centertype = "BASIC"
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  isinactive = false
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "workato_intg"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "ALL"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = [
+      {
+        permkey = "TRAN_PAYMENTAUDIT"
+        permlevel = "VIEW"
+      },
+      {
+        permkey = "TRAN_AUDIT"
+        permlevel = "VIEW"
+      },
+      {
+        permkey = "TRAN_SALESORD"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "REPO_BALANCESHEET"
+        permlevel = "VIEW"
+      },
+      {
+        permkey = "REPO_BUDGET"
+        permlevel = "VIEW"
+      },
+      {
+        permkey = "LIST_ACCOUNT"
+        permlevel = "VIEW"
+      },
+      {
+        permkey = "REGT_BANK"
+        permlevel = "VIEW"
+      },
+      {
+        permkey = "ADMI_MANAGE_OAUTH_TOKENS"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "ADMI_ACCOUNTINGLIST"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "ADMI_BACKUPEXPORT"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "ADMI_LOGIN_OAUTH"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "ADMI_RESTWEBSERVICES"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "ADMI_WEBSERVICES"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "ADMI_SFASETUP"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "ADMI_MANAGE_OWN_OAUTH_TOKENS"
+        permlevel = "FULL"
+      },
+    ]
+  }
+}

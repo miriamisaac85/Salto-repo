@@ -1,0 +1,14 @@
+netsuite.centercategory custcentercategory2 {
+  scriptid = "custcentercategory2"
+  center = netsuite.center.instance.custcenter1.scriptid
+  centertab = netsuite.centertab.instance.custcentertab_slt_some_center_tab.scriptid
+  label = "Category B"
+  links = {
+    link = [
+      {
+        linkid = "EDIT_TRAN_CUSTPYMT"
+        shortlist = false
+      },
+    ]
+  }
+}

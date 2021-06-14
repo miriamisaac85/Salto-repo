@@ -1,0 +1,57 @@
+netsuite.customsegment cseg_slt_order {
+  scriptid = "cseg_slt_order"
+  defaultrecordaccesslevel = "VIEW"
+  defaultsearchaccesslevel = "VIEW"
+  displaytype = "NORMAL"
+  fieldtype = "SELECT"
+  hasglimpact = false
+  ismandatory = false
+  label = "Test Applications Order"
+  recordtype = netsuite.customrecordtype.instance.customrecord_cseg_slt_order.scriptid
+  valuesdisplayorder = "SUBLIST"
+  segmentapplication = {
+    transactionbody = {
+      applications = {
+        application = [
+          {
+            id = "JOURNALENTRY"
+            isapplied = true
+          },
+        ]
+      }
+    }
+    transactionline = {
+      applications = {
+        application = [
+          {
+            id = "EXPENSE"
+            isapplied = true
+          },
+          {
+            id = "EXPENSEREPORT"
+            isapplied = true
+          },
+          {
+            id = "ITEMFULFILLMENT"
+            isapplied = true
+          },
+          {
+            id = "JOURNALENTRY"
+            isapplied = true
+          },
+          {
+            id = "PURCHASE"
+            isapplied = true
+          },
+          {
+            id = netsuite.customtransactiontype.instance.custompurchase_slt_expense_report.scriptid
+            isapplied = true
+          },
+        ]
+      }
+    }
+    items = {
+      subtype = "BOTH"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+netsuite.role customroleintg_workato {
+  scriptid = "customroleintg_workato"
+  centertype = "ACCOUNTCENTER"
+  employeerestriction = "NONE"
+  employeeselectionunrestricted = false
+  isinactive = false
+  ispartnerrole = false
+  issalesrole = false
+  issinglesignononly = false
+  issupportrole = false
+  iswebserviceonlyrole = false
+  name = "Integration for Workato"
+  restrictbydevice = false
+  restricttimeandexpenses = false
+  subsidiaryoption = "ALL"
+  subsidiaryviewingallowed = false
+  tfaduration = "0"
+  tfarequired = "OFF"
+  permissions = {
+    permission = [
+      {
+        permkey = "TRAN_PURCHORDBILL"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "TRAN_SALESORD"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "ADMI_MANAGE_OAUTH_TOKENS"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "ADMI_ACCOUNTINGLIST"
+        permlevel = "VIEW"
+      },
+      {
+        permkey = "ADMI_LOGIN_OAUTH"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "ADMI_RESTWEBSERVICES"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "ADMI_WEBSERVICES"
+        permlevel = "FULL"
+      },
+      {
+        permkey = "ADMI_SETUPCOMPANY"
+        permlevel = "FULL"
+      },
+    ]
+  }
+}

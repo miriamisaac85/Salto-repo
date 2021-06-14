@@ -1,0 +1,12 @@
+netsuite.file SuiteScripts_clientScript_2_0_js@duuv {
+  availablewithoutlogin = false
+  bundleable = false
+  generateurltimestamp = false
+  hideinbundle = false
+  isinactive = false
+  path = "/SuiteScripts/clientScript_2_0.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/clientScript_2_0.js")
+  _parent = [
+    "[/SuiteScripts]",
+  ]
+}

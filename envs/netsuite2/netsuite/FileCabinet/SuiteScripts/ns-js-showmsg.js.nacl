@@ -1,0 +1,12 @@
+netsuite.file SuiteScripts_ns_js_showmsg_js@dbbv {
+  availablewithoutlogin = false
+  bundleable = false
+  generateurltimestamp = false
+  hideinbundle = false
+  isinactive = false
+  path = "/SuiteScripts/ns-js-showmsg.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/ns-js-showmsg.js")
+  _parent = [
+    "[/SuiteScripts]",
+  ]
+}

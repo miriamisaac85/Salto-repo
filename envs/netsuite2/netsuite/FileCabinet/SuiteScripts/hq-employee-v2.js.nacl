@@ -1,0 +1,12 @@
+netsuite.file SuiteScripts_hq_employee_v2_js@dbbv {
+  availablewithoutlogin = false
+  bundleable = false
+  generateurltimestamp = false
+  hideinbundle = false
+  isinactive = false
+  path = "/SuiteScripts/hq-employee-v2.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/hq-employee-v2.js")
+  _parent = [
+    "[/SuiteScripts]",
+  ]
+}

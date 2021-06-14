@@ -1,0 +1,13 @@
+netsuite.file SuiteScripts_ApplicationConstants_js@dv {
+  availablewithoutlogin = false
+  bundleable = false
+  description = "some updated description updated from nacl and updated again"
+  generateurltimestamp = false
+  hideinbundle = false
+  isinactive = false
+  path = "/SuiteScripts/ApplicationConstants.js"
+  content = file("netsuite/FileCabinet/SuiteScripts/ApplicationConstants.js")
+  _parent = [
+    "[/SuiteScripts]",
+  ]
+}

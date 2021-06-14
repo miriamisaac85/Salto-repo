@@ -1,0 +1,9 @@
+netsuite.advancedpdftemplate custtmpl_103_t2257860_157 {
+  scriptid = "custtmpl_103_t2257860_157"
+  standard = "STDTMPLCUSTCRED"
+  displaysourcecode = false
+  isinactive = false
+  preferred = true
+  title = "Custom Credit Memo PDF/HTML Template 2"
+  content = file("netsuite/advancedpdftemplate/custtmpl_103_t2257860_157.xml")
+}
