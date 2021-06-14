@@ -1,4 +1,8 @@
 envs {
   envsCloud = [
+    {
+      uuid = "1850da1b-5e87-47f6-be65-bb216e94968a"
+      folderName = "netsuite2"
+    },
   ]
 }
