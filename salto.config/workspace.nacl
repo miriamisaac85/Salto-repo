@@ -1,0 +1,5 @@
+workspace {
+  uid = "63d793cd-c170-4f52-881c-479df9958838"
+  name = "camera"
+  staleStateThresholdMinutes = undefined
+}
